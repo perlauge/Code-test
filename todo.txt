@@ -1,0 +1,27 @@
+TODO: Tasks to be donefor the implementation of the assignment.
+[x] create an account for a customer
+[x] - assume single account per customer. Trying to create the same account will return the original account.
+[x] read available balance
+[x] - accountIds are numeric
+[x] deposit
+[x] - only deposit positive amounts
+[x] withdraw
+[x] - only withdraw positive amounts
+[x] list transaction
+
+[ ] security
+[ ] - only allow privileged users to create an account
+[ ] - only allow privileged users to access the account
+[ ] - only allow privileged users to access the list of transaction
+[x] - do not allow for overdraft
+
+[ ] logic
+[ ] - assumed currency
+[ ] - no limit on decimals
+[ ] - not a closed system. Money is created by being deposited, destroyed when withdrawing.
+
+------------------------------
+Legend:
+[x] - done
+[ ] - still to do
+[?] - question

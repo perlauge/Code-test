@@ -1,0 +1,61 @@
+= Getting Started With Spring REST Docs
+
+This is an example output for the Account service running at http://localhost:8080:
+
+== Creating an account
+
+.request
+include::../../../target/snippets/home/http-request.adoc[]
+
+.response
+include::../../../target/snippets/home/http-response.adoc[]
+
+== Show balance for an account
+
+.request
+include::../../../target/snippets/show-balance/http-request.adoc[]
+
+.response
+include::../../../target/snippets/show-balance/http-response.adoc[]
+
+== Depositing
+.request
+include::../../../target/snippets/deposit/http-request.adoc[]
+
+.response
+include::../../../target/snippets/deposit/http-response.adoc[]
+
+== Deposit fails
+.request
+include::../../../target/snippets/deposit-fail/http-request.adoc[]
+
+.response
+include::../../../target/snippets/deposit-fail/http-response.adoc[]
+
+.request
+include::../../../target/snippets/deposit-fail2/http-request.adoc[]
+
+.response
+include::../../../target/snippets/deposit-fail2/http-response.adoc[]
+
+== Withdrawing
+.request
+include::../../../target/snippets/withdraw/http-request.adoc[]
+
+.response
+include::../../../target/snippets/withdraw/http-response.adoc[]
+
+== Withdrawing failing
+.request
+include::../../../target/snippets/withdraw-fail/http-request.adoc[]
+
+.response
+include::../../../target/snippets/withdraw-fail/http-response.adoc[]
+
+== Listing transactions
+.request
+include::../../../target/snippets/transactions/http-request.adoc[]
+
+.response
+include::../../../target/snippets/transactions/http-response.adoc[]
+
