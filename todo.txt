@@ -1,4 +1,4 @@
-TODO: Tasks to be donefor the implementation of the assignment.
+TODO: Tasks to be done for the implementation of the assignment.
 [x] create an account for a customer
 [x] - assume single account per customer. Trying to create the same account will return the original account.
 [x] read available balance
