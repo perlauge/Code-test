@@ -18,6 +18,9 @@ public class Transaction {
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private long transactionId;
 
+    public Transaction() {
+    }
+
     private OffsetDateTime timeOfTransaction;
 
     private TransactionType transactionType;

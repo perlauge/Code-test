@@ -83,7 +83,6 @@ public class AccountService {
     }
 
     public List<Transaction> getLatestTransactions(long accountId) {
-        List<Transaction> first10ByAccountIdOOrderByAuditIdDesc = transactionRepository.findFirst10ByAccountIdAndSuccessOrderByTransactionIdDesc(accountId, true);
-        return first10ByAccountIdOOrderByAuditIdDesc;
+        return transactionRepository.findFirst10ByAccountIdAndSuccessOrderByTransactionIdDesc(accountId, true);
     }
 }

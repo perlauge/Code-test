@@ -17,6 +17,9 @@ public class Account extends RepresentationModel<Account> {
     private long customerId;
     private BigDecimal balance;
 
+    public Account() {
+    }
+
     public void setCustomerId(long customerId) {
         this.customerId = customerId;
     }

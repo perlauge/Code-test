@@ -11,6 +11,9 @@ import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.methodOn;
 
 @Component
 public class AccountAssembler implements RepresentationModelAssembler<Account, EntityModel<Account>> {
+
+    public AccountAssembler() {}
+
     @Override
     public EntityModel<Account> toModel(Account account) {
         return EntityModel.of(account,
